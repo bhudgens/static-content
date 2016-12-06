@@ -25,6 +25,7 @@ const app = express();
  ********************************************************************/
 
 if (!config.staticContentDirectory) {
+  log.enable.logging = true;
   log.error("Static Content Directory Not Defined");
   process.exit(1);
 }
