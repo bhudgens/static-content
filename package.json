@@ -1,0 +1,29 @@
+{
+  "name": "static-content",
+  "version": "1.0.0",
+  "description": "Do nothing but serve static files in Starphleet",
+  "scripts": {
+    "test": "npm install && ./tests/runall.sh",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glg/static-content.git"
+  },
+  "author": "Benjamin Hudgens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glg/static-content/issues"
+  },
+  "homepage": "https://github.com/glg/static-content#readme",
+  "dependencies": {
+    "docopt": "0.6.2",
+    "express": "4.14.0",
+    "express-session": "1.14.2",
+    "iphb-logs": "0.0.18"
+  },
+  "engine": {
+    "node": "6.7.0",
+    "npm": "3.10.3"
+  }
+}
